@@ -21,7 +21,6 @@ img {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px)
 #header {
     padding: 0 10px;
 }
@@ -44,9 +43,8 @@ img {
   margin-bottom: 60px;
 }
 
-@media screen and (max-width: 1024px)
 .inner {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
 .inner {
@@ -54,9 +52,8 @@ img {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px)
 #index {
-    padding: 40px 20px;
+  padding: 40px 20px;
 }
 
 #index {
@@ -84,4 +81,20 @@ img {
 
 #index .index-inner .index-list li {
   margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px 0 45px 0;
+}
+
+.list li {
+  width: 49%;
+  margin-bottom: 15px;
+}
+
+.list li img {
+  vertical-align: bottom;
 }
