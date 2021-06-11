@@ -98,3 +98,45 @@ img {
 .list li img {
   vertical-align: bottom;
 }
+
+#detail {
+  padding: 40px 20px;
+}
+
+#detail {
+  background-color: #f5f5f5;
+  padding: 60px;
+  margin-bottom: 60px;
+}
+
+#detail .flex {
+  flex-direction: column;
+}
+
+#detail dl {
+  width: 100%;
+  border-right: none;
+  border-bottom: solid 1px #333;
+  padding: 0 0 40px 0;
+}
+
+#detail dt {
+  font-weight: bold;
+}
+
+#detail dd {
+  margin-bottom: 10px;
+}
+
+#detail .text {
+  width: 100%;
+  padding: 40px 0 0 0;
+}
+
+#detail .text p {
+  margin-bottom: 20px;
+}
+
+#detail .text .link {
+  color: #333;
+}
